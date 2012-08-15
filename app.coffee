@@ -12,10 +12,10 @@ app.configure 'development', ->
 app.configure 'production', ->
   console.log 'production environment'
 
-app.engine '.hamlc', cons['haml-coffee']
+app.engine '.jade', cons['jade']
 
 app.get '/', (req, res) ->
-  res.render 'index.hamlc', {name: "Victor"}
+  res.render 'index.jade'
 
 app.listen 3000
 
