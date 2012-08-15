@@ -5,6 +5,8 @@
   "private": true,
   "dependencies": {
     "express": "3.0.0rc3",
-    "coffee-script": "1.3.3"
+    "consolidate": "0.4.0",
+    "coffee-script": "1.3.3",
+    "haml-coffee": "1.4.1"
   }
 }
